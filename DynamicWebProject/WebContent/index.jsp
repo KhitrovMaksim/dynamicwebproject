@@ -10,11 +10,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello World!</h1>
-	<br/>
+	<h1>Hello World 1!</h1>
+	<br>
 	<%
 		for(String name : DatabaseFacade.getBooks()){
-				out.println(name + "<br/>");
+				out.println(name + "<br>");
 			}
 	%>
 </body>
